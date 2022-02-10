@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f111b67968b7a4091754443e02d3d7, type: 3}
+  m_Name: officeObject
+  m_EditorClassIdentifier: 
+  office:
+  - scene: Office1
+    date:
+      year: 0
+      month: 0
+      week: 0
+    cashRange: 0
+    numberEmpoyee: 0
+    buy: 0
+    execute: 1
+  - scene: Office2
+    date:
+      year: 1
+      month: 0
+      week: 0
+    cashRange: 50
+    numberEmpoyee: 0
+    buy: 0
+    execute: 1
+  - scene: Office3
+    date:
+      year: 4
+      month: 0
+      week: 0
+    cashRange: 60
+    numberEmpoyee: 0
+    buy: 0
+    execute: 0
